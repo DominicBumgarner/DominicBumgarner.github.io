@@ -13,10 +13,19 @@ table {
 }
 
 .title {
-  color
+  font-weight: normal;
+  color: #41AFE1;
 }
 
-.information {
+
+.introduction{
   text-align: center;
+  background-color: #4169E1;
+  color: white;
+  width: 600px
+    
+  
+   
 }
+
 
