@@ -33,3 +33,11 @@ table {
 .studylength{
   padding-left: 6px
 }
+
+
+
+a:-webkit-any-link {
+  Color: #4169E1;
+  text-decoration: solid;
+ 
+}
