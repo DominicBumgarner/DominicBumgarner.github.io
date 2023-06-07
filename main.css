@@ -38,8 +38,6 @@ table {
   
 }
 
-
-
 a:-webkit-any-link {
   Color: #4169E1;
   text-decoration: solid;
@@ -52,11 +50,13 @@ a:-webkit-any-link {
   vertical-align: top;
   width: 200px;
   
+  
 }
 
 .leftcolumnlist{
   font-weight: normal;
   text-align: left;
+  
   
 }
 
@@ -67,3 +67,24 @@ a:-webkit-any-link {
   vertical-align: bottom;
 
 }
+
+.characteristics{
+  padding-top: 13px;
+}
+ 
+.companyinfo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
