@@ -6,12 +6,13 @@ table, tr, td {
 }
 
 table {
-  width: 600px;
+  width: 650px;
 }
 
 .company {
   font-weight: bold;
   padding-left: 5px;
+  text-align: center;
   
 }
 
@@ -23,15 +24,18 @@ table {
 
 .introduction{
   text-align: center;
-  background-color: #4169E1;
+  width: 650px;
+  font-size: 23px
 }
 
 .duration{
   padding-left: 7px;
+  text-align: center
 }
 
 .studylength{
-  padding-left: 6px
+  text-align: center
+  
 }
 
 
@@ -40,4 +44,26 @@ a:-webkit-any-link {
   Color: #4169E1;
   text-decoration: solid;
  
+}
+
+.leftcoulmnheader{
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+  width: 200px;
+  
+}
+
+.leftcolumnlist{
+  font-weight: normal;
+  text-align: left;
+  
+}
+
+.gamesworkedon{
+  height: 300px;
+  font-weight: normal;
+  text-align: left;
+  vertical-align: bottom;
+
 }
