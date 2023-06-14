@@ -79,8 +79,12 @@ a:-webkit-any-link {
   position: relative;
   
 }
-  
-  
+
+.phoneicon{
+  display: flex;
+  align-items: bottom;
+  position: relative;
+}
   
   
   
