@@ -5,14 +5,26 @@
     <meta name="viewport" content="width=device-width">
     <title>JS Bin</title>
     <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <link href="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.css" rel="stylesheet">
+    <script type="text/javascript">
+      $(function() {
+                
+                $('.companyinfo a').miniPreview({ prefetch: 'pageload' });
+      });
+    </script> 
+    <script src="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js"></script>
   </head>
   <body>
     <div>
-      <div style="display: flex; align-items: center;">
-        <a href="mailto:dominicbumgarner@gmail.com" target="_blank">
-        <img src="https://DominicBumgarner.github.io/phoneicon.jpg" height="30" style="margin-right: 10px;">
+      <div>
+        <p class="introduction">Dominic Bumgarner - Video game enthusiast and web development<br>
+          <a href="mailto:dominicbumgarner@gmail.com" target="_blank">
+        <img src="https://DominicBumgarner.github.io/phoneicon.jpg" height="20" style="margin-right:" alt="phone icon">
         </a>
-        <p class="introduction">Dominic Bumgarner - Video game enthusiast and web development Padawan</p>
+        Padawan
+          <a href="tel:612-207-3860"><img src="https://DominicBumgarner.github.io/emicon.jpg" height="20" alt="email icon"></a>
+        </p>
       </div>
     </div>
     <table class="resume-table">
