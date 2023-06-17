@@ -6,17 +6,10 @@ table, tr, td {
 }
 
 table {
-  width: 650px
-}
-table, tr, td { 
-  border: 1px solid;
-  border-spacing: 0px;
+  width: 650px;
   
   
-}
-
-table {
-  width: 650px
+  
 }
 
 .company {
@@ -66,13 +59,12 @@ a:-webkit-any-link {
 
 .leftcolumnlist{
   font-weight: normal;
-  text-align: left;
+  text-align: center;
   
   
 }
 
 .gamesworkedon{
-  height: 300px;
   font-weight: normal;
   text-align: left;
   vertical-align: bottom;
@@ -97,91 +89,11 @@ a:-webkit-any-link {
   position: relative;
 }
 
-
-  
-  
-  
-  
-  
-
-.company {
-  font-weight: bold;
-  padding-left: 5px;
-  text-align: center;
-  
-}
-
-.title {
-  font-weight: normal;
-  color: #41AFE1;
-}
-
-
-.introduction{
-  text-align: center;
-  width: 650px;
-  font-size: 23px
-}
-
-.duration{
-  padding-left: 7px;
-  text-align: center
-}
-
-.studylength{
-  text-align: center
-  
-}
-
-a:-webkit-any-link {
-  Color: #4169E1;
-  text-decoration: solid;
- 
-}
-
-.leftcolumnheader{
-  font-weight: bold;
+.headerstyle{
   text-align: center;
   vertical-align: top;
-  width: 200px;
-  
-  
 }
 
-.leftcolumnlist{
-  font-weight: normal;
-  text-align: left;
-  
-  
-}
-
-.gamesworkedon{
-  height: 300px;
-  font-weight: normal;
-  text-align: left;
-  vertical-align: bottom;
-
-}
-
-.characteristics{
-  padding-top: 13px;
-}
- 
-.companyinfo{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  
-}
-
-.phoneicon{
-  display: flex;
-  align-items: bottom;
-  position: relative;
-}
-  
-  
   
   
   
