@@ -93,6 +93,18 @@ a:-webkit-any-link {
   text-align: center;
   vertical-align: top;
 }
+.image-container {
+  display: inline-flex;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.image-container img {
+  display: block;
+  width: 150px;
+  height: 170px;
+  object-fit: cover; 
+}
 
   
   
