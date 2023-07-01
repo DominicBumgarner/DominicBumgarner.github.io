@@ -106,6 +106,10 @@ a:-webkit-any-link {
   object-fit: cover; 
 }
 
+.socialmediaicons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 650px
   
-  
-  
+}
