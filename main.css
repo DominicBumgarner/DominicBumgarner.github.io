@@ -7,6 +7,7 @@ table, tr, td {
 
 table {
   width: 650px;
+  color: white
   
   
   
@@ -21,7 +22,7 @@ table {
 
 .title {
   font-weight: normal;
-  color: #41AFE1;
+  color: 
 }
 
 
@@ -29,7 +30,8 @@ table {
   text-align: center;
   width: 650px;
   font-size: 23px;
-  vertical-align: middle;  
+  vertical-align: middle;
+  color: white;
 }
 
 .duration{
@@ -113,3 +115,13 @@ a:-webkit-any-link {
   width: 650px
   
 }
+
+body{
+  background-image: url('https://Dominicbumgarner.github.io/darkergrey.jpg')
+}
+
+
+
+  
+  
+  
